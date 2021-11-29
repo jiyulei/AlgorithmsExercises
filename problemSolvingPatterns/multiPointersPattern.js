@@ -30,9 +30,9 @@ function countUnique(arr) {
     if (arr.length === 1) {
         return arr[0];
     }
-    //      i
+    //  i
     // [1,2,3,2,3] 
-    //          j
+    //    j
     // two pointers , i from first j from second , count = 1
     let count = 1;
     
@@ -59,9 +59,9 @@ function countUnique2(arr) {
     if (arr.length === 1) {
         return result;
     }
-    //  i
+    //    i
     // [1,1,2,3,4,3,4,4,5] 
-    //    j
+    //        j
 
     for (let i = 0, j = 1; j < arr.length ; j++) {
         // if arr[i] !equal to arr[j], then put arr[j] value in arr[i+1],also move the i to next
